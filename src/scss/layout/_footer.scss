@@ -1,0 +1,104 @@
+footer{
+  width: 100%;
+  background-color: #1C1C28;
+  border-top: 1px solid #30313F;
+  .row{
+    gap: 1rem;
+  }
+  .col{
+    display: flex;
+    justify-content: center;
+  }
+  .form{
+
+    input{
+      color: $my-color-4;
+      border-radius: px-to-rem(100px);
+      margin-right: px-to-rem(5px);
+      padding: px-to-rem(10px);
+      outline: none;
+      border: none;
+    }
+  
+    .bi-arrow-right-circle-fill{
+      color: $my-color-5;
+      font-size: px-to-rem(30px);
+    }
+  }
+  .container{
+    .my-col-01{
+      padding: px-to-rem(5px);
+      flex-direction: column;
+      .col__text{
+        display: flex;
+        align-items: center;
+        gap: px-to-rem(10px);
+        flex-wrap: wrap;
+        a{
+          font-size: px-to-rem(14px);
+          font-weight: 700;
+          text-decoration: none;
+          padding: 16px 24px;
+          color: $my-color-3;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          background: linear-gradient(267.28deg, #7B61FF 24%, #AA82FF 73.95%);
+          border-radius: px-to-rem(100px);
+        }
+      }
+    }
+    .my-col-02{
+      padding: px-to-rem(5px);
+      gap: px-to-rem(50px);
+      .col__list{
+        h5{
+          font-weight: 700;
+        }
+        .nav{
+          .nav-item{
+            .nav-link{
+              font-size: px-to-rem(14px);
+              font-weight: 300;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container-fluid{
+    .my__row{
+      padding: px-to-rem(15px);
+      .my__col__01{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        text-align: center;
+        a{
+          font-size: px-to-rem(14px);
+          color: $my-color-3;
+          text-decoration: none;
+        }
+      }
+      .col__icons{
+
+        .list__icons{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          gap: px-to-rem(20px);
+          .link{
+            list-style: none;
+            a{
+              color: #5F627E;
+              text-decoration: none;
+            }
+            
+          }
+        }
+      }
+    }
+  }
+}

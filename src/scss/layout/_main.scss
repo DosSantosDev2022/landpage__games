@@ -1,0 +1,169 @@
+main{
+background-color: #1C1C28;
+  .container{
+    .logo__empresas{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: px-to-rem(20px);
+      img{
+        margin-top: px-to-rem(25px);
+        width: 80%;
+      }
+    }
+  }
+  .container{
+    .container__cards{
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+      text-align: center;
+      padding: px-to-rem(20px);
+      margin-top: px-to-rem(80px);
+      .cards__title{
+        h6{
+          font-size: px-to-rem(14px);
+          font-weight: 700;
+          color: $my-color-7;
+        }
+        h4{
+          font-size: px-to-rem(32px);
+          font-weight: 700;
+          color: $my-color-3;
+        }
+      }
+      .cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: px-to-rem(24px);
+        .card{
+          background-color: $my-color-9;
+          padding: px-to-rem(15px);
+          .card-body{
+            text-align: start;
+            h3{
+              padding: px-to-rem(10px);
+              background-color: #57576A;
+              font-size: px-to-rem(14px);
+              font-weight: 700;
+              color: $my-color-3;
+            }
+            p{
+              color: $my-color-3;
+            }
+          }
+        }
+      }
+    }
+  }
+  .container__games__cards{
+    padding: px-to-rem(32px);
+    margin-top: px-to-rem(150px);
+    background-image: url(/src/img/banners/bg_02.png);
+    .container{
+      .games__pagination{
+        text-align: center;
+        h4{
+          font-size: px-to-rem(32px);
+          font-weight: 700;
+          color: $my-color-3;
+        }
+      }
+      .container__games{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: px-to-rem(15px);
+        margin-top: px-to-rem(50px);
+      }
+      .card{
+        width: px-to-rem(250px);
+        height: px-to-rem(368px);
+        background-color: #181920a6;
+      }
+      .card__text{
+        padding: px-to-rem(10px);
+        h4{
+          color: $my-color-3;
+          font-size: px-to-rem(14px);
+          font-weight: 700;
+        }
+        p{
+          font-size:px-to-rem(12px);
+          font-weight: 300;
+          color: $my-color-3;
+        }
+      }
+      .card__order{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: px-to-rem(10px);
+        padding: px-to-rem(10px);
+        span{
+          color: $my-color-3;
+          font-size: px-to-rem(12px);
+        }
+        a{
+          background-color: $my-color-7;
+          color: $my-color-3;
+          text-decoration: none;
+          padding: px-to-rem(6.44px);
+          border-radius: px-to-rem(19.33px);
+        }
+      }
+    }
+  }
+
+  .container{
+    .container__video{
+      display: flex;
+      justify-content: center;
+      gap: px-to-rem(40px);
+      padding: px-to-rem(20px);
+      margin-top: px-to-rem(100px); 
+        img{
+          width: 100%;
+        }
+      .container__text{
+        padding: px-to-rem(5px);
+        .title{
+          h4{
+            font-size: px-to-rem(30px);
+            font-weight: 700;
+            color: $my-color-3;
+          }
+        }
+        .container__list{
+          display: flex;
+          gap: px-to-rem(24px);
+          .list{
+            h6{
+              font-size: px-to-rem(18px);
+              font-weight: 700;
+              color: $my-color-3;
+            }
+            p{
+              font-size: px-to-rem(14px);
+              font-weight: 400;
+              color:  $my-color-3;
+            }
+          }
+        }
+      }
+    }
+  }   
+  }
+  @media screen and (max-width:900px) {
+    .container{
+      .container__video{
+        flex-wrap: wrap;
+      }
+    }
+  }
